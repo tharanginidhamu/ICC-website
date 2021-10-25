@@ -1,0 +1,11 @@
+{
+    "hosting": {
+      "public": "dist/argon-design-system-angular",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }
+  }
+  
