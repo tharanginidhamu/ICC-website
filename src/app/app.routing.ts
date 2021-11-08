@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 
 import { LandingComponent } from './landing/landing.component';
+import { Prodct2Component } from './prodct2/prodct2.component';
+import { Prodct3Component } from './prodct3/prodct3.component';
 
 
 const routes: Routes =[
@@ -14,6 +16,8 @@ const routes: Routes =[
     { path: 'user-profile',     component: ProfileComponent },
  
     { path: 'landing',          component: LandingComponent },
+    { path: 'prodct2',          component: Prodct2Component },
+    { path: 'prodct3',          component: Prodct3Component },
     
     { path: '', redirectTo: 'landing', pathMatch: 'full' }
 ];

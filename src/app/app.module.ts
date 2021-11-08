@@ -14,6 +14,8 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
 import { HomeModule } from './home/home.module';
+import { Prodct2Component } from './prodct2/prodct2.component';
+import { Prodct3Component } from './prodct3/prodct3.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { HomeModule } from './home/home.module';
     LandingComponent,
     ProfileComponent,
     NavbarComponent,
-    FooterComponent],
+    FooterComponent,
+    Prodct2Component,
+    Prodct3Component],
   imports: [
     BrowserModule,
     NgbModule,
